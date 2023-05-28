@@ -19,16 +19,17 @@ ul{
 
 .button-1{
     height: 38px;
-    background-color: #e65f3a;
+    background-color: #890000;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
+    font-size: 15px;
 }
 
 .dark{
     padding: 16px;
-    background-color: #35424a;
+    background-color:rgba(0, 0, 0, 0.849);
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -36,11 +37,11 @@ ul{
 
 /* Header */
 header{
-    background-color: rgb(40, 40, 40);
+    background-color: rgba(137, 18, 18, 0.98);
     color: white;
     padding-top:30px ;
     min-height: 70px;
-    border-bottom:rgb(131, 24, 24) 4px solid;
+    border-bottom:rgb(49, 0, 0) 6px solid;
 }
 
 header a{
@@ -67,12 +68,13 @@ header #brand h1{
 
 header nav{
     float: right;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: rgb(0, 0, 0);
     font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.481);
 }
 
 header a.hover{
@@ -90,14 +92,14 @@ header a.hover{
 }
 
 #showcase h1{
-    margin-top: 65px;
+    margin-top: 70px;
     font-size: 47px;
     margin-bottom: 10px;
 }
 
 #showcase p{
-    padding-top: 20px;
-    font-size: 17px;
+    padding-top: 25px;
+    font-size: 18px;
     word-spacing: 0.1em;
     letter-spacing: 0.1em;
 }
@@ -106,11 +108,13 @@ header a.hover{
 #newsletter{
     padding: 15px;
     color: white;
-    background-color: rgb(125, 121, 121);
+    background-color: rgba(0, 0, 0, 0.849);
 }
 
 #newsletter h1{
+    margin-top: 20px;
     float: left;
+    font-size: 22px;
 }
 
 #newsletter form{
@@ -122,6 +126,7 @@ header a.hover{
     padding: 4px;
     height: 25px;
     width: 250px;
+    font-size: 15px;
 }
 
 /* Boxes */
@@ -166,9 +171,16 @@ ul#services li{
     background-color: #e6e6e6;
 }
 
+aside#sidebar{
+    margin-top: 63px;
+}
+
+
 aside#sidebar .quote input, aside#sidebar .quote textarea{
     width: 90%;
-    padding: 5px;
+    padding: 9px;
+    margin-bottom: 12px;
+    background-color: rgba(255, 255, 255, 0.849);
 }
 
 
@@ -179,7 +191,7 @@ footer{
     background-color: rgb(40, 40, 40);
     text-align: center;
     font-size: 16px;
-    border-top: rgb(131, 24, 24) 4px solid;
+    border-top: rgb(152, 15, 15) 6px solid;
 }
 
 /* Media Queries */
